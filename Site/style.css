@@ -1,0 +1,113 @@
+body, header, img, main, section, p, input, footer, label, div, h1, hr, h1, button, textarea{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Palette Mosaic', cursive;
+    background-color: rgba(0, 0, 0, 0.933);
+    
+}
+header{
+    background-color: #15023a;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+h1{
+    color: white;
+    margin-left: 5px;
+}
+.app{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section{
+    background-color: #FFF;
+    box-shadow:  1px 1px 1px #808080;
+    padding: 30px;
+    width: 600px;
+    text-align: center;
+    color: #808080;
+}
+.textleft{
+    text-align: left;
+}
+section p{
+    margin: 10px 0;
+}
+section textarea{
+    font-family: 'Palette Mosaic', cursive;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    height: 150px;
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 150px;
+    min-height: 150px;
+}
+section button{
+    margin: 20px;
+    background-color: #1480fa;
+    color: #fff;
+    border:  none;
+    text-transform: uppercase;
+    padding:  10px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+label{
+    display: none;
+}
+footer{
+    margin-top: 100px;
+    height: 300px;
+    background-image: url("https://dge4uaysoh8oy.cloudfront.net/lp/creatopy/624/images/1630069165764_CTA---Blueberry---5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.resultado{
+    position: absolute;
+    top:0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(4 20 62 / 89%);
+    transition: 0.5s;
+}
+
+.resultado.mostrarResultado{
+    left: 0;
+    transition: 0.5s;
+}
+.resultado span{
+    float: right;
+    margin: 20px;
+    color:#fff;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border: solid #fff 2px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.resultado p{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
